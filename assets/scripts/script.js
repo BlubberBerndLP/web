@@ -4,16 +4,14 @@
         }); 
         $('.carousel').carousel('cycle');
     
-   $('#top-nav').onePageNav({
-                 currentClass: 'active',
-                 changeHash: true,
+   $('#top-nav')({
+	             currentClass: 'active',
+				 changeHash: true,
                  scrollSpeed: 500
             });
 
 
 });
-
-
 
   // animation
 $(window).scroll(function() {
