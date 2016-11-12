@@ -1,16 +1,23 @@
-body {
+#body {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFF;
+	background: url(1.jpg) no-repeat center center fixed;
+}
+
+.container {
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-bottom: 30px;
+	background-color: black;
+	background:rgba(0,0,0,0.8);
+	border-radius: 40px;
+	margin-top: 60px;
 }
 
 header {
 	margin-left: auto;
 	margin-right: auto;
 	height: 450px;
-	margin-top: -10px;
-	background-image: url(1.jpg);
-	border-bottom: 2px solid #3B0B2E;
 }
 
 #t1 {
@@ -28,16 +35,7 @@ header {
 	padding: 30px;
 }
 
-#uforum1 {
-	text-align: center;
-	padding: 30px;
-	margin-left: 320px;
-}
 
-#uforum2 {
-	margin-top: -81px;
-	margin-left: 747px;
-}
 
 
 
@@ -47,7 +45,7 @@ header {
 	font-size: 30px;
 	color: #5A5857;
 	margin-left: 335px;
-	margin-top: 10px;
+	margin-top: 80px;
 }
 
 #tforum {
@@ -134,29 +132,26 @@ header {
 }
 
 #server {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 200px;
+	margin-right: 200px;
 	height: 550px;
 	margin-top: 110px;
-	border-top: 2px solid #000000;
-	border-bottom: 2px solid #000000;
-	background-image: url(3.jpg);
 }
 
 
 #tserver1 {
 	margin-top: -370px;
-	margin-left: 350px;
+	margin-left: 90px;
 	font-size: 50px;
-	color: #0B0B61;
+	color: #FF8000;
 	font-weight: bold;
 }
 
 #tserver2 {
 	margin-top: 30px;
-	margin-left: 390px;
+	margin-left: 100px;
 	font-size: 20px;
-	color: #424242;
+	color: #7A7A7A;
 }
 
 #umod {
